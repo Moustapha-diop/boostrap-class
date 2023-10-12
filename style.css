@@ -1,0 +1,6 @@
+@media screen and (max-width=600px){
+    .right col-xs-12 col-sm-6 col-md-7 img{
+        width: 200px;
+        height: 100px;
+    }
+}
