@@ -10,12 +10,17 @@
     </head>
     <body>
         <div class="container-fluid bg-light">
-            <nav  class="navbar navbar-expand-md fixed-top mt-0" >
+            <nav  class="navbar navbar-expand-md navbar-light bg-light  fixed-top mt-0" >
              <div class="container bg-light ">
                 <a class="navbar-brand text-uppercase fw-bold" href="porfolio.html" style="color:black">
                     <span class=" bg-primary bg-gradient p-1 rounded-3 text-light">JONH</span> Doe
                 </a>
-         <div class="d-flex justify-content-end ">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                data-bs-target="#navbarNav" aria-controls="navbarNav" 
+                aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+         <div class="collapse navbar-collapse  justify-content-end " id="navbarNav">
                 <ul class="navbar list-inline">
                     <li class="navbar-item active list-inline-item">
                         <a class="nav-link fw-lighter" href="#johndoe" style="color:black">Qui suis-je?</a>
@@ -37,7 +42,7 @@
         </div>
             </nav>
         </div>
-
+<section id="johndoe">
         <div class="container py-5">
           <div class="row gy-4 align-items-center">
             <div class="left col-12 col-md-6">
@@ -54,7 +59,9 @@
           </div>
 
         </div>
+    </section>
 
+    <section id="expertise">
         <div class="container-fluid bg-light" style="margin-top:30px;">
             <div class="container">
                 <p class="col-12 fw-bold">Mon expertis</p>
@@ -85,6 +92,9 @@
                 </div>
             </div>
         </div>
+    </section>
+
+    <section id="portfolio">
 
         <div class="container">
            <p class="fw-bold">mon portfolio projet<p/>
@@ -111,6 +121,9 @@
             </div>
         </div>
         </div>
+    </section>
+
+    <section id="contact">
 
         <div class="container-fluid bg-light  mb-4" >
             <div class="container">
@@ -130,6 +143,7 @@
             </div>
         </div>
     </div>
+</section>
 
     <footer class="col-4 col-md-12">
     <div class="container py-5" >
